@@ -25,9 +25,11 @@
 
     "payment_enabled": "true",  // default to true
 
-    "currency": "currency",  // tbl_course.currency
+    "payment_gateway": "payment_gateway",  // tbl_course.payment_gateway (resolved directly from courseRow)
 
-    "amount": "course_fee", // tbl_course.course_fee
+    "currency": "currency",  // tbl_course_plan_type_mapping.curr_name (resolved via coursePlanData.currency)
+
+    "amount": "course_fee", // tbl_course_plan_type_mapping.orginal_price (overridden in buildPayload via coursePlanData.plan_original_price; rule "course_fee" would otherwise resolve to tbl_course.course_fee)
 
     "additional_price": "course_plan_additional_price", // first active tbl_course_plan_type_mapping.additional_price by course_plan_position, then id
 
@@ -68,6 +70,8 @@
     "show_banner_phone": "show_banner_phone", // tbl_course_banner.show_banner_phone Y=true, N=false
 
     "show_banner_tagline": "show_banner_tagline", // tbl_course_banner.show_banner_tagline Y=true, N=false
+
+    "hide_last_enrollment_date": "show_enroll_close_date", // tbl_course_banner.show_enroll_close_date inverse of show_enroll_close_date: Y → send N, N → send Y (default N)
 
     "banner_tag_line": "banner_tagline", // tbl_course_banner.banner_tagline
 

@@ -241,6 +241,17 @@ export default function (sequelize, DataTypes) {
                 allowNull: false,
                 defaultValue: 'N',
             },
+            hide_last_enrollment_date: {
+                type: DataTypes.STRING(1),
+                allowNull: false,
+                defaultValue: "N"
+            },
+
+            payment_gateway: {
+                type: DataTypes.STRING(50),
+                allowNull: true,
+                defaultValue: null
+            },
         },
         {
             sequelize,

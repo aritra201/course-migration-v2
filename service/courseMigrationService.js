@@ -120,7 +120,17 @@ async function buildMigratedCourses(options = {}) {
         const typeId      = String(courseRow.type_of_course ?? '').trim();
         const courseTypeRow = (typeId && courseTypeMap.get(typeId)) || {};
         const sectionHtml = sectionContentMap.get(courseId) || '';
-        const coursePlanData = {course_plan_additional_price: resolveCourseAdditionalPrice(sectionDatasets.coursePlanTypeMappingByCourseId?.get(courseId) || [],),
+        const coursePlanRows = sectionDatasets.coursePlanTypeMappingByCourseId?.get(courseId) || [];
+        const bestPlanRow    = selectBestPlanRow(coursePlanRows);
+        const coursePlanData = {
+            course_plan_additional_price: resolveCourseAdditionalPrice(coursePlanRows),
+            // currency → tbl_course_plan_type_mapping.curr_name
+            // (courseRow has no currency column so the lookup falls through naturally)
+            currency:            bestPlanRow ? cleanText(bestPlanRow.curr_name)     : '',
+            // plan_original_price → tbl_course_plan_type_mapping.orginal_price
+            // stored under a unique key so buildPayload can override payload.amount
+            // without being shadowed by tbl_course.course_fee
+            plan_original_price: bestPlanRow ? cleanText(bestPlanRow.orginal_price) : '',
         };
 
         const payload = buildPayload({
@@ -461,6 +471,22 @@ function compareNumber(left, right) {
     return Number(left || 0) - Number(right || 0);
 }
 
+/**
+ * Pick the first active plan row ordered by course_plan_position then id.
+ * Used to extract authoritative currency and original-price values.
+ */
+function selectBestPlanRow(coursePlanRows) {
+    return (
+        [...coursePlanRows]
+            .filter((row) => cleanText(row.status).toUpperCase() === 'A')
+            .sort(
+                (a, b) =>
+                    compareNumber(a.course_plan_position, b.course_plan_position) ||
+                    compareNumber(a.id, b.id),
+            )[0] || null
+    );
+}
+
 function resolveCourseAdditionalPrice(coursePlanRows) {
     const selectedRow = [...coursePlanRows]
         .filter((row) => (
@@ -543,6 +569,13 @@ function buildPayload({ mapping, courseRow, bannerRow, contentData, courseTypeRo
             courseTypeRow,
             coursePlanData,
         });
+    }
+
+    // amount: the mapping rule "course_fee" resolves to courseRow.course_fee first because
+    // tbl_course.csv has that column.  Override here so the authoritative source is
+    // tbl_course_plan_type_mapping.orginal_price (stored as plan_original_price in coursePlanData).
+    if ('plan_original_price' in coursePlanData) {
+        payload.amount = coursePlanData.plan_original_price;
     }
 
     payload.slug = payload.slug || slugify(payload.title || courseRow.url_mask || courseRow.course_name || '');
@@ -674,6 +707,12 @@ function normalizePayload(payload, sourceContext = {}) {
 
         if (key === 'additional_price') {
             payload[key] = normalizeNullableAmount(payload[key]);
+            continue;
+        }
+
+        if (key === 'hide_last_enrollment_date') {
+            // Inverse of show_enroll_close_date: Y → send N, N → send Y
+            payload[key] = cleanText(payload[key]).toUpperCase() === 'Y' ? 'N' : 'Y';
             continue;
         }
 
@@ -923,11 +962,14 @@ function normalizeDurationMinutes(durationValue, durationType) {
     }
 
     if (normalizedType === 'months' || normalizedType === 'month') {
-        return String(Math.round(numericDuration * 30.4166667 * 24 * 60));
+        // Use exactly 30 days/month so the new system displays a round figure.
+        // 30.4166667 (astronomical average) caused "6 months 2 days" instead of "6 months".
+        return String(Math.round(numericDuration * 30 * 24 * 60));
     }
 
     if (normalizedType === 'years' || normalizedType === 'year' || normalizedType === 'yr' || normalizedType === 'yrs') {
-        return String(Math.round(numericDuration * 365 * 24 * 60));
+        // Use 360 days/year (12 × 30) to stay consistent with the 30-day month convention.
+        return String(Math.round(numericDuration * 12 * 30 * 24 * 60));
     }
 
     return String(Math.round(numericDuration));
