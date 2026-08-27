@@ -1,0 +1,95 @@
+// API Curl Example :- 
+
+curl --location 'http://localhost:6608/api/v1/learners/migrate' \
+--header 'Content-Type: application/json' \
+--header 'Authorization: Bearer YOUR_ADMIN_JWT_TOKEN' \
+--data '{
+  "name": "Aritra Bera",
+  "email": "aritra.bera@lawsikho.in",
+  "location": "test",
+  "category": "Internships",
+  "qualification": "Testing degree",
+  "institute": "Testing Institute",
+  "work_experience": "Test",
+  "pre_job_type": "Testing Type",
+  "post_job_type": "Testing Type 2",
+  "linkedin_profile": "https://pk.linkedin.com/",
+  "linkedin_content": "Test",
+  "youtube_name": "https://www.youtube.com/",
+  "youtube_profile": "https://www.youtube.com/",
+  "youtube_link": "https://www.youtube.com/",
+  "quora_profile": "https://pk.linkedin.com/",
+  "quora_content": "Aliquam tristique tincidunt lacinia. Aliquam porttitor sit amet nisl congue malesuada.",
+  "status": "A",
+  "course_enrollments": [
+    {
+      "course_id": 357,
+      "batch_id": 1,
+      "batch_name": "APR-01-2019"
+    },
+    {
+      "course_id": 354,
+      "batch_id": 4,
+      "batch_name": "MAR-01-2019"
+    }
+  ],
+  "profile_image": "https://your-cdn.example.com/images/profile.png",
+  "pre_profession_logo": "https://your-cdn.example.com/images/ipleaders1.png",
+  "post_profession_logo": "https://your-cdn.example.com/images/logo.png",
+  "youtube_image": "https://your-cdn.example.com/images/saj.jpeg",
+  "createdAt": "2022-05-01T10:30:00.000Z",
+  "updatedAt": "2024-12-15T08:45:00.000Z"
+}'
+
+
+// CSV to API payload mapping example
+
+{
+"name":"learner_name", // tbl_learner.name
+
+"email":"learner_email", // tbl_learner.email
+
+"location":"location", // tbl_learner.location
+
+"category":"category", // tbl_learner.category
+
+"qualification":"qualification", // tbl_learner.qualification
+
+"institute":"institute", // tbl_learner.institute
+
+"work_experience":"work_experience", // tbl_learner.work_experience
+
+"pre_job_type":"pre_jobtype", // tbl_learner.pre_jobtype
+
+"post_job_type":"post_jobtype", // tbl_learner.post_jobtype
+
+"linkedin_profile":"linkedin_profile", // tbl_learner.linkedin_profile
+
+"linkedin_content":"linkedin_content", // tbl_learner.linkedin_content
+
+"youtube_name":"youtube_name", // tbl_learner.youtube_name
+
+"youtube_profile":"youtube_profile", // tbl_learner.youtube_profile
+
+"youtube_link":"youtube_link", // tbl_learner.youtube_link
+
+"quora_profile":"quora_profile", // tbl_learner.quora_profile
+
+"quora_content":"quora_content", // tbl_learner.quora_content
+
+"status":"status", // tbl_learner.status
+
+"course_enrollments": "learner_course_batch", // tbl_learner.learner_course_batch (array of objects with course_id, batch_id, batch_name)
+
+"profile_image":"profile_image", // SUCCESS_STORY_IMAGE_BASE_URL + /uploads/learner_profile_image/thumbs/ + profile_image
+
+"pre_profession_logo":"pre_profession_logo", // SUCCESS_STORY_IMAGE_BASE_URL + /uploads/learner_pre_profession_logo/thumbs/ + pre_profession_logo
+
+"post_profession_logo":"post_profession_logo", // SUCCESS_STORY_IMAGE_BASE_URL + /uploads/learner_post_profession_logo/thumbs/ + post_profession_logo
+
+"youtube_image":"youtube_image", // SUCCESS_STORY_IMAGE_BASE_URL + /uploads/learner_youtube_image/thumbs/ + youtube_image
+
+"createdAt":"added_date", // tbl_learner.added_date (ISO 8601, e.g. 2022-05-01T10:30:00.000Z)
+
+"updatedAt":"modified_date" // tbl_learner.modified_date (ISO 8601, e.g. 2024-12-15T08:45:00.000Z)
+}

@@ -1,0 +1,110 @@
+Study Material Upload API : (POST)
+
+curl --location 'http://localhost:6608/api/v1/course/study-material/upload-url' \
+--header 'Content-Type: application/json' \
+--data '[
+    {
+        "study_material_file_url": "https://lawsikho-frontend-production.s3.amazonaws.com/public/uploads/course-download/thumbs/Exercise2-Reference_Study_Material_-_1_Introduction_to_Income_tax_for_Business-1571298766.pdf",
+        "file_name": "Exercise2-Reference_Study_Material_-_1_Introduction_to_Income_tax_for_Business-1571298766.pdf"
+    },
+    {
+        "study_material_file_url": "https://lawsikho-frontend-production.s3.amazonaws.com/public/uploads/course-download/thumbs/Exercise2-Reference_Study_Material_-_1_Introduction_to_Income_tax_for_Business-1571298766.pdf",
+        "file_name": "Exercise2-Reference_Study_Material_-_1_Introduction_to_Income_tax_for_Business-1571298766.pdf"
+    },
+    {
+        "study_material_file_url": "https://lawsikho-frontend-production.s3.amazonaws.com/public/uploads/course-download/thumbs/Exercise2-Reference_Study_Material_-_1_Introduction_to_Income_tax_for_Business-1571298766.pdf",
+        "file_name": "Exercise2-Reference_Study_Material_-_1_Introduction_to_Income_tax_for_Business-1571298766.pdf"
+    }
+]'
+
+
+Returned response :- 
+{
+    "status": "success",
+    "data": [
+        {
+            "id": 10,
+            "url": "https://lawsikho-frontend-production.s3.amazonaws.com/public/uploads/course-download/thumbs/Exercise2-Reference_Study_Material_-_1_Introduction_to_Income_tax_for_Business-1571298766.pdf",
+            "file_name": "Exercise2-Reference_Study_Material_-_1_Introduction_to_Income_tax_for_Business-1571298766.pdf"
+        },
+        {
+            "id": 11,
+            "url": "https://lawsikho-frontend-production.s3.amazonaws.com/public/uploads/course-download/thumbs/Exercise2-Reference_Study_Material_-_1_Introduction_to_Income_tax_for_Business-1571298766.pdf",
+            "file_name": "Exercise2-Reference_Study_Material_-_1_Introduction_to_Income_tax_for_Business-1571298766.pdf"
+        },
+        {
+            "id": 12,
+            "url": "https://lawsikho-frontend-production.s3.amazonaws.com/public/uploads/course-download/thumbs/Exercise2-Reference_Study_Material_-_1_Introduction_to_Income_tax_for_Business-1571298766.pdf",
+            "file_name": "Exercise2-Reference_Study_Material_-_1_Introduction_to_Income_tax_for_Business-1571298766.pdf"
+        }
+    ],
+    "meta": {
+        "count": 3
+    }
+}
+
+
+
+exsiting Course add API : (POST) newly added study_material_mapping_ids
+
+curl --location 'http://localhost:6608/api/v1/course/add' \
+--header 'authorization: Bearer *************' \
+--form 'title="Test Course Study Material"' \
+--form 'slug="test-course-study-material"' \
+--form 'course_content=""' \
+--form 'duration_minutes="180"' \
+--form 'is_published="true"' \
+--form 'status="A"' \
+--form 'enrollment_last_date="2026-05-31T12:56:00.000Z"' \
+--form 'payment_enabled="true"' \
+--form 'currency="INR"' \
+--form 'amount="5999"' \
+--form 'third_party_lead_enabled="false"' \
+--form 'course_tags="[\"Diploma Programme\"]"' \
+--form 'share_enabled="false"' \
+--form 'is_new="false"' \
+--form 'is_featured="false"' \
+--form 'short_description=""' \
+--form 'get_study_material_enabled="true"' \
+--form 'study_material_email_template=""' \
+--form 'use_custom_study_material_template="false"' \
+--form 'study_material_mapping_ids="[6,7,8]"' \
+--form 'counselling_call_enabled="false"' \
+--form 'join_waitlist_enabled="true"' \
+--form 'join_waitlist_email_template=""' \
+--form 'use_custom_join_waitlist_email_template="false"' \
+--form 'banner_phone=""' \
+--form 'show_banner_phone="true"' \
+--form 'banner_tag_line=""' \
+--form 'show_banner_tagline="true"' \
+--form 'class_routine=""' \
+--form 'logo_type="0"' \
+--form 'show_learn_from="false"' \
+--form 'learn_from=""' \
+--form 'show_get_course_syllabus="true"' \
+--form 'get_course_syllabus_link=""' \
+--form 'refund_policy="true"' \
+--form 'send_to_timepay="false"' \
+--form 'send_to_leadsquared="false"' \
+--form 'send_to_wati="false"' \
+--form 'send_to_email="false"' \
+--form 'timepay_campaign_id=""' \
+--form 'timepay_bootcamp_name=""' \
+--form 'timepay_agent_id=""' \
+--form 'timepay_disposition_id=""' \
+--form 'timepay_organization_id=""' \
+--form 'initiate_call="false"' \
+--form 'header_tag_snippets="[]"' \
+--form 'footer_tag_snippets="[]"' \
+--form 'page_name=""' \
+--form 'page_url=""' \
+--form 'seo_title=""' \
+--form 'seo_description=""' \
+--form 'seo_keywords=""' \
+--form 'google_json=""' \
+--form 'og_title=""' \
+--form 'og_type=""' \
+--form 'og_url=""' \
+--form 'og_image=""' \
+--form 'og_description=""'
+

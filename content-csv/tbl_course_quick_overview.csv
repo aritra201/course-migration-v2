@@ -1,0 +1,1438 @@
+"id","course_id","content_title","content_details","status","added_date","modified_date"
+"1","29","Quick Overview","<style type=""text/css"">.banner-stats-section {
+            background: linear-gradient(180deg, #6088FF 0%, #002AA7 100%);
+            border-radius: 20px;
+            padding: 30px 50px;
+        }
+
+        @media screen and (max-width: 1024px) {
+            .banner-stats-section {
+                padding: 20px 30px;
+            }
+        }
+
+        .banner-stats-section .stats-wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 30px;
+        }
+
+        @media screen and (max-width: 1024px) {
+            .banner-stats-section .stats-wrapper {
+                gap: 20px;
+                align-items: flex-start;
+            }
+        }
+
+        @media screen and (max-width: 768px) {
+            .banner-stats-section .stats-wrapper {
+                flex-direction: column;
+                gap: 20px;
+                align-items: center;
+            }
+        }
+
+        .banner-stats-section .stats-wrapper .stat-item {
+            flex: 1;
+            text-align: center;
+            color: #ffffff;
+        }
+
+        .banner-stats-section .stats-wrapper .stat-item:first-child {
+            text-align: left;
+        }
+
+        @media screen and (max-width: 768px) {
+            .banner-stats-section .stats-wrapper .stat-item:first-child {
+                text-align: center;
+            }
+        }
+
+        @media screen and (max-width: 1024px) {
+            .banner-stats-section .stats-wrapper .stat-item {
+                width: 25%;
+            }
+        }
+
+        @media screen and (max-width: 768px) {
+            .banner-stats-section .stats-wrapper .stat-item {
+                width: 100%;
+            }
+        }
+
+        .banner-stats-section .stats-wrapper .stat-item .stat-number {
+            font-size: 42px;
+            font-weight: 500;
+            color: #ffffff;
+            margin-bottom: 5px;
+            line-height: 1;
+        }
+
+        @media screen and (max-width: 1024px) {
+            .banner-stats-section .stats-wrapper .stat-item .stat-number {
+                font-size: 40px;
+                line-height: 48px;
+                font-weight: 400;
+            }
+        }
+
+        .banner-stats-section .stats-wrapper .stat-item .stat-label-title {
+            font-size: 28px;
+            font-weight: 500;
+            line-height:50px;
+            color: #ffffff;
+            margin-bottom: 0;
+        }
+
+       
+
+        .banner-stats-section .stats-wrapper .stat-item .stat-label {
+            font-size: 16px;
+            font-weight: 400;
+            color: #ffffff;
+            margin: 0;
+            opacity: 0.95;
+        }
+
+        .banner-stats-section .stats-wrapper .stat-divider {
+            width: 1px;
+            height: 30px;
+            background: #ffffff;
+            flex-shrink: 0;
+        }
+        .our-services{
+            margin-top: 4rem;
+        }
+        .our-services h2{
+                font-size: 42px;
+                font-weight: 600;
+                line-height: 50px;
+                color: #1a1a1a;
+                margin-bottom: 35px;
+
+        }
+        @media screen and (max-width: 991px) {
+            .our-services{
+                margin-top: 50px;
+            }
+            .our-services h2{
+                font-size: 32px;
+                line-height: 40px;
+                margin-bottom: 25px;
+            }
+        }
+        @media screen and (max-width: 768px) {
+            .our-services h2{
+                font-size: 24px;
+                line-height: 32px;
+                margin-bottom: 15px;
+            }
+        }
+        .success-stories-section{
+            margin-top: 4rem;
+        }
+        @media screen and (max-width: 991px) {
+            .success-stories-section{
+                margin-top: 50px;
+            }
+        }
+
+        .the-team {
+            background-color: #fff;
+            padding: 4rem 0 0;
+        }
+        .the-team .team-section-title {
+            color: #000;
+            font-size: 2.625rem;
+            font-weight: 600;
+            text-align: left;
+            margin-bottom: 35px;
+        }
+ @media screen and (max-width: 992px) {
+    .the-team {
+            padding: 50px 0;
+        }
+	 .the-team .team-section-title {
+		 font-size: 24px;
+		 margin-bottom: 15px;
+		 line-height: 32px;
+	}
+}
+ .the-team .team-section-wrapper {
+	 display: flex;
+	 justify-content: center;
+     flex-wrap: wrap;
+	 gap: 18px 25px;
+	 margin: 0 auto;
+}
+ .the-team .team-member-card {
+	 background: linear-gradient(180.69deg, #2941ba 0.59%, rgba(217, 222, 246, .62) 92.59%);
+	 border-radius: 16px;
+	 padding: 3px;
+	 height: 100%;
+	 transition: transform 0.3s;
+	 box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+	 position: relative;
+     overflow: hidden;
+     width: calc(33.33% - 25px);
+}
+@media screen and (max-width: 992px) {
+	 .the-team .team-member-card {
+		 width: calc(50% - 25px);
+	}
+}
+@media screen and (max-width: 768px) {
+	 .the-team .team-member-card {
+		 width: 100%;
+	}
+    .banner-stats-section .stats-wrapper .stat-divider{
+            width: 30px;
+            height: 1px;
+    }
+}
+ .the-team .team-member-card:hover {
+	 transform: translateY(-5px);
+	 box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+ .the-team .team-member-card .card-content {
+	 background: #fff;
+	 border-radius: 12px;
+	 padding: 30px;
+	 height: 100%;
+}
+ @media screen and (max-width: 768px) {
+	 .the-team .team-member-card .card-content {
+		 padding: 15px;
+	}
+}
+ .the-team .team-member-header {
+	 display: flex;
+     justify-content: space-between;
+	 gap: 20px;
+	 margin-bottom: 20px;
+	 align-items: flex-start;
+}
+.the-team .team-member-header span{
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 500;
+    color: #2941BA;
+}
+ .the-team .team-member-image {
+	 flex-shrink: 0;
+}
+ .the-team .team-member-image img {
+	 width: 87px;
+	 height: auto;
+	 object-fit: cover;
+	 border-radius: 8px;
+	 display: block;
+}
+ .the-team .team-member-title {
+	 flex: 1;
+}
+ .the-team .team-member-title .member-name {
+	 font-size: 1.25rem;
+	 font-weight: 600;
+	 color: #000;
+	 margin: 0 0 8px 0;
+	 line-height: 1.3;
+}
+ .the-team .team-member-title .member-position {
+	 font-size: 1rem;
+	 font-weight: 500;
+	 color: #2941BA;
+	 margin: 0;
+	 line-height: 1.5;
+}
+    .the-team .team-member-bio p {
+        font-size: 1rem;
+        font-weight: 400;
+        color: #000;
+        line-height: 22px;
+        margin: 0 0 20px 0;
+        text-align: justify;
+    }
+    .link-icon{
+        margin-top: 20px;
+    }
+
+
+    .course-highlights-section .section-title {
+        font-size: 42px;
+        font-weight: 600;
+        line-height: 50px;
+        color: #101828;
+        margin: 0 0 48px 0;
+    }
+
+    .course-highlights-section .highlights-grid {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 32px;
+    }
+
+    .course-highlights-section .highlight-card {
+        flex: 1 1 200px;
+        max-width: 240px;
+        display: flex;
+        flex-direction: column;
+    }
+    .course-highlights-section .highlight-card .head-wrap{
+        position: relative;
+        margin-bottom: 12px;
+    }
+
+    .course-highlights-section .highlight-value {
+        display: flex;
+        align-items: baseline;
+        gap: 8px;
+        margin: 0;
+        border-bottom: 1px solid #000000;
+        padding-bottom: 20px;
+    }
+    @media screen and (max-width: 768px) {
+        .course-highlights-section .highlight-value {
+            padding-bottom: 10px;
+        }
+    }
+
+    .course-highlights-section .highlight-value span {
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 1;
+        color: #2D4BFF;
+    }
+    @media screen and (max-width: 768px) {
+        .course-highlights-section .highlight-value span {
+            font-size: 30px;
+            line-height: 36px;
+        }
+    }
+
+    .course-highlights-section .highlight-value small {
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 1;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+        color: #1D2939;
+    }
+
+    .course-highlights-section .highlight-line {
+        width: 70%;
+        height: 5px;
+        background: #2941BA;
+        border-radius: 999px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+
+    .course-highlights-section .highlight-description {
+        font-size: 16px;
+        line-height: 24px;
+        color: #475467;
+        margin: 0;
+    }
+    @media screen and (max-width: 768px) {
+        .course-highlights-section .highlight-description {
+            font-size: 14px;
+            line-height: 24px;
+        }
+    }
+    .manifesto .manifesto-title-card .manifesto-title .title-main{
+        line-height: 53px;
+        font-weight: 500;
+    }
+    .manifesto .manifesto-title-card .manifesto-title .title-sub {
+        font-size: 36px;
+        display: block;
+        line-height: 40px;
+        font-weight: 500;
+    }
+
+    @media screen and (max-width: 1200px) {
+        .course-highlights-section .highlights-grid {
+            justify-content: center;
+        }
+
+        .course-highlights-section .highlight-card {
+            max-width: 260px;
+        }
+    }
+
+    @media screen and (max-width: 992px) {
+        .course-highlights-section .highlight-card {
+            flex: 1 1 calc(50% - 32px);
+            max-width: none;
+        }
+    }
+
+    @media screen and (max-width: 768px) {
+        .course-highlights-section {
+            margin: 5px 0 0;
+        }
+
+        .course-highlights-section .section-title {
+            font-size: 24px;
+            line-height: 32px;
+            margin-bottom: 15px;
+        }
+    }
+
+    @media screen and (max-width: 600px) {
+        .course-highlights-section .highlights-grid {
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .course-highlights-section .highlight-card {
+            width: 100%;
+            max-width: 320px;
+            text-align: center;
+            align-items: center;
+        }
+
+        .course-highlights-section .highlight-line {
+            width: 120px;
+        }
+
+        .course-highlights-section .highlight-description {
+            text-align: center;
+        }
+    }
+
+ @media screen and (max-width: 992px) {
+	
+	
+	 .the-team .team-member-image img {
+		 width: 87px;
+		 height: auto;
+	}
+	 .the-team .team-member-title .member-name {
+		 font-size: 1.13rem;
+	}
+	 .the-team .team-member-title .member-position {
+		 font-size: 0.875rem;
+	}
+}
+ @media screen and (max-width: 768px) {
+	 .the-team .team-member-card {
+		 padding: 2px;
+	}
+	 .the-team .team-member-header {
+		 flex-direction: column;
+		 align-items: center;
+		 text-align: center;
+		 gap: 15px;
+	}
+	 .the-team .team-member-image img {
+		 width: 100px;
+		 height: 100px;
+	}
+	 .the-team .team-member-title .member-name {
+		 font-size: 1.13rem;
+	}
+	 .the-team .team-member-title .member-position {
+		 font-size: 0.8125rem;
+	}
+	 .the-team .team-member-bio p {
+		 font-size: 1rem;
+		 text-align: left;
+		 line-height: 22px;
+	}
+}
+ @media screen and (max-width: 576px) {
+	
+	 .the-team .team-member-card {
+		 padding: 2px;
+	}
+	 .the-team .team-member-title .member-name {
+		 font-size: 1.13rem;
+	}
+	 .the-team .team-member-title .member-position {
+		 font-size: 0.75rem;
+	}
+	 .the-team .team-member-bio p {
+		 font-size: 1rem;
+		 line-height: 22px;
+		 margin-bottom: 12px;
+	}
+}
+</style>
+<div class=""banner-stats-section"">
+<div class=""stats-wrapper"">
+<div class=""stat-item"">
+<p class=""stat-label-title"">Opportunities Created</p>
+</div>
+
+<div class=""stat-divider"">&nbsp;</div>
+
+<div class=""stat-item"">
+<h3 class=""stat-number"">5400+</h3>
+
+<p class=""stat-label"">Freelance Projects</p>
+</div>
+
+<div class=""stat-divider"">&nbsp;</div>
+
+<div class=""stat-item"">
+<h3 class=""stat-number"">900+</h3>
+
+<p class=""stat-label"">Job Placements</p>
+</div>
+
+<div class=""stat-divider"">&nbsp;</div>
+
+<div class=""stat-item"">
+<h3 class=""stat-number"">400+</h3>
+
+<p class=""stat-label"">Internships</p>
+</div>
+</div>
+</div>
+
+<div class=""our-services"">
+<h2>SkillArbitrage Learners&rsquo; Advantage</h2>
+
+<div class=""row"">
+<div class=""col-lg-3 col-12""><!-- Card 1 -->
+<div class=""service-card"">
+<div class=""service-card-content"">
+<h3 class=""service-card-title"">5,400+</h3>
+
+<p class=""service-card-description"">Freelance Projects Secured Through SkillArbitrage&nbsp;</p>
+</div>
+</div>
+</div>
+
+<div class=""col-lg-3 col-12""><!-- Card 2 -->
+<div class=""service-card"">
+<div class=""service-card-content"">
+<h3 class=""service-card-title"">900+</h3>
+
+<p class=""service-card-description"">Learners Placed in Jobs Through SkillArbitrage</p>
+</div>
+</div>
+</div>
+
+<div class=""col-lg-3 col-12""><!-- Card 3 -->
+<div class=""service-card"">
+<div class=""service-card-content"">
+<h3 class=""service-card-title"">400+</h3>
+
+<p class=""service-card-description"">Internships Secured Through SkillArbitrage</p>
+</div>
+</div>
+</div>
+
+<div class=""col-lg-3 col-12""><!-- Card 3 -->
+<div class=""service-card"">
+<div class=""service-card-content"">
+<h3 class=""service-card-title"">400+</h3>
+
+<p class=""service-card-description"">Indian &amp; International Recruiters</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class=""success-stories-section"">
+<div class=""heading"">
+<h2 class=""success-stories-title"">Success stories on YouTube</h2>
+</div>
+
+<div class=""success-stories-carousel"">
+<div class=""success-stories-youtubeslider owl-carousel owl-theme"">
+<div class=""item"">
+<div class=""success-stories-card"">
+<div class=""main-wrap"">
+<div class=""success-stories-card-image""><img alt=""Success Stories"" src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/successstories1-1762840789.jpg"" /></div>
+
+<div class=""success-stories-card-content"">
+<h3 class=""success-stories-card-title"">Pramod Patil</h3>
+<button class=""btn-watch-now"" data-bs-target=""#success-stories1"" data-bs-toggle=""modal""><img src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/playcircle-1763617487.png"" />Watch my story</button></div>
+</div>
+</div>
+
+<div class=""success-stories-card"">
+<div class=""main-wrap"">
+<div class=""success-stories-card-image""><img alt=""Success Stories"" src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/successstories1-1762840789.jpg"" /></div>
+
+<div class=""success-stories-card-content"">
+<h3 class=""success-stories-card-title"">Syeda Asfa Tabassum</h3>
+<button class=""btn-watch-now"" data-bs-target=""#success-stories2"" data-bs-toggle=""modal""><img src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/playcircle-1763617487.png"" />Watch my story</button></div>
+</div>
+</div>
+</div>
+
+<div class=""item"">
+<div class=""success-stories-card"">
+<div class=""main-wrap"">
+<div class=""success-stories-card-image""><img alt=""Success Stories"" src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/successstories1-1762840789.jpg"" /></div>
+
+<div class=""success-stories-card-content"">
+<h3 class=""success-stories-card-title"">Tejaswi Gandamalla</h3>
+<button class=""btn-watch-now"" data-bs-target=""#success-stories3"" data-bs-toggle=""modal""><img src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/playcircle-1763617487.png"" />Watch my story</button></div>
+</div>
+</div>
+
+<div class=""success-stories-card"">
+<div class=""main-wrap"">
+<div class=""success-stories-card-image""><img alt=""Success Stories"" src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/successstories1-1762840789.jpg"" /></div>
+
+<div class=""success-stories-card-content"">
+<h3 class=""success-stories-card-title"">Indrajeet Yadav</h3>
+<button class=""btn-watch-now"" data-bs-target=""#success-stories4"" data-bs-toggle=""modal""><img src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/playcircle-1763617487.png"" />Watch my story</button></div>
+</div>
+</div>
+</div>
+
+<div class=""item"">
+<div class=""success-stories-card"">
+<div class=""main-wrap"">
+<div class=""success-stories-card-image""><img alt=""Success Stories"" src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/successstories1-1762840789.jpg"" /></div>
+
+<div class=""success-stories-card-content"">
+<h3 class=""success-stories-card-title"">Srishti G Singhal</h3>
+<button class=""btn-watch-now"" data-bs-target=""#success-stories5"" data-bs-toggle=""modal""><img src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/playcircle-1763617487.png"" />Watch my story</button></div>
+</div>
+</div>
+
+<div class=""success-stories-card"">
+<div class=""main-wrap"">
+<div class=""success-stories-card-image""><img alt=""Success Stories"" src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/successstories1-1762840789.jpg"" /></div>
+
+<div class=""success-stories-card-content"">
+<h3 class=""success-stories-card-title"">Sharmila Jagadeesan</h3>
+<button class=""btn-watch-now"" data-bs-target=""#success-stories6"" data-bs-toggle=""modal""><img src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/playcircle-1763617487.png"" />Watch my story</button></div>
+</div>
+</div>
+</div>
+
+<div class=""item"">
+<div class=""success-stories-card"">
+<div class=""main-wrap"">
+<div class=""success-stories-card-image""><img alt=""Success Stories"" src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/successstories1-1762840789.jpg"" /></div>
+
+<div class=""success-stories-card-content"">
+<h3 class=""success-stories-card-title"">Kamatchi Dilli</h3>
+<button class=""btn-watch-now"" data-bs-target=""#success-stories7"" data-bs-toggle=""modal""><img src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/playcircle-1763617487.png"" />Watch my story</button></div>
+</div>
+</div>
+
+<div class=""success-stories-card"">
+<div class=""main-wrap"">
+<div class=""success-stories-card-image""><img alt=""Success Stories"" src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/successstories1-1762840789.jpg"" /></div>
+
+<div class=""success-stories-card-content"">
+<h3 class=""success-stories-card-title"">VEENA PRABHU</h3>
+<button class=""btn-watch-now"" data-bs-target=""#success-stories8"" data-bs-toggle=""modal""><img src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/playcircle-1763617487.png"" />Watch my story</button></div>
+</div>
+</div>
+</div>
+
+<div class=""item"">
+<div class=""success-stories-card"">
+<div class=""main-wrap"">
+<div class=""success-stories-card-image""><img alt=""Success Stories"" src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/successstories1-1762840789.jpg"" /></div>
+
+<div class=""success-stories-card-content"">
+<h3 class=""success-stories-card-title"">Mamta Sahu</h3>
+<button class=""btn-watch-now"" data-bs-target=""#success-stories9"" data-bs-toggle=""modal""><img src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/playcircle-1763617487.png"" />Watch my story</button></div>
+</div>
+</div>
+
+<div class=""success-stories-card"">
+<div class=""main-wrap"">
+<div class=""success-stories-card-image""><img alt=""Success Stories"" src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/successstories1-1762840789.jpg"" /></div>
+
+<div class=""success-stories-card-content"">
+<h3 class=""success-stories-card-title"">Sharmila Jagadeesan</h3>
+<button class=""btn-watch-now"" data-bs-target=""#success-stories10"" data-bs-toggle=""modal""><img src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/playcircle-1763617487.png"" />Watch my story</button></div>
+</div>
+</div>
+</div>
+
+<div class=""item"">
+<div class=""success-stories-card"">
+<div class=""main-wrap"">
+<div class=""success-stories-card-image""><img alt=""Success Stories"" src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/successstories1-1762840789.jpg"" /></div>
+
+<div class=""success-stories-card-content"">
+<h3 class=""success-stories-card-title"">Kamatchi Dilli</h3>
+<button class=""btn-watch-now"" data-bs-target=""#success-stories11"" data-bs-toggle=""modal""><img src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/playcircle-1763617487.png"" />Watch my story</button></div>
+</div>
+</div>
+
+<div class=""success-stories-card"">
+<div class=""main-wrap"">
+<div class=""success-stories-card-image""><img alt=""Success Stories"" src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/successstories1-1762840789.jpg"" /></div>
+
+<div class=""success-stories-card-content"">
+<h3 class=""success-stories-card-title"">VEENA PRABHU</h3>
+<button class=""btn-watch-now"" data-bs-target=""#success-stories12"" data-bs-toggle=""modal""><img src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/playcircle-1763617487.png"" />Watch my story</button></div>
+</div>
+</div>
+</div>
+
+<div class=""item"">
+<div class=""success-stories-card"">
+<div class=""main-wrap"">
+<div class=""success-stories-card-image""><img alt=""Success Stories"" src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/successstories1-1762840789.jpg"" /></div>
+
+<div class=""success-stories-card-content"">
+<h3 class=""success-stories-card-title"">Govind</h3>
+<button class=""btn-watch-now"" data-bs-target=""#success-stories13"" data-bs-toggle=""modal""><img src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/playcircle-1763617487.png"" />Watch my story</button></div>
+</div>
+</div>
+
+<div class=""success-stories-card"">
+<div class=""main-wrap"">
+<div class=""success-stories-card-image""><img alt=""Success Stories"" src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/successstories1-1762840789.jpg"" /></div>
+
+<div class=""success-stories-card-content"">
+<h3 class=""success-stories-card-title"">Kulin Makwana</h3>
+<button class=""btn-watch-now"" data-bs-target=""#success-stories14"" data-bs-toggle=""modal""><img src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/playcircle-1763617487.png"" />Watch my story</button></div>
+</div>
+</div>
+</div>
+
+<div class=""item"">
+<div class=""success-stories-card"">
+<div class=""main-wrap"">
+<div class=""success-stories-card-image""><img alt=""Success Stories"" src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/successstories1-1762840789.jpg"" /></div>
+
+<div class=""success-stories-card-content"">
+<h3 class=""success-stories-card-title"">Abhyuday Agarwal</h3>
+<button class=""btn-watch-now"" data-bs-target=""#success-stories15"" data-bs-toggle=""modal""><img src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/playcircle-1763617487.png"" />Watch my story</button></div>
+</div>
+</div>
+
+<div class=""success-stories-card"">
+<div class=""main-wrap"">
+<div class=""success-stories-card-image""><img alt=""Success Stories"" src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/successstories1-1762840789.jpg"" /></div>
+
+<div class=""success-stories-card-content"">
+<h3 class=""success-stories-card-title"">Abhishek</h3>
+<button class=""btn-watch-now"" data-bs-target=""#success-stories16"" data-bs-toggle=""modal""><img src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/playcircle-1763617487.png"" />Watch my story</button></div>
+</div>
+</div>
+</div>
+
+<div class=""item"">
+<div class=""success-stories-card"">
+<div class=""main-wrap"">
+<div class=""success-stories-card-image""><img alt=""Success Stories"" src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/successstories1-1762840789.jpg"" /></div>
+
+<div class=""success-stories-card-content"">
+<h3 class=""success-stories-card-title"">Yashmi</h3>
+<button class=""btn-watch-now"" data-bs-target=""#success-stories17"" data-bs-toggle=""modal""><img src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/playcircle-1763617487.png"" />Watch my story</button></div>
+</div>
+</div>
+
+<div class=""success-stories-card"">
+<div class=""main-wrap"">
+<div class=""success-stories-card-image""><img alt=""Success Stories"" src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/successstories1-1762840789.jpg"" /></div>
+
+<div class=""success-stories-card-content"">
+<h3 class=""success-stories-card-title"">Saleena</h3>
+<button class=""btn-watch-now"" data-bs-target=""#success-stories18"" data-bs-toggle=""modal""><img src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/playcircle-1763617487.png"" />Watch my story</button></div>
+</div>
+</div>
+</div>
+
+<div class=""item"">
+<div class=""success-stories-card"">
+<div class=""main-wrap"">
+<div class=""success-stories-card-image""><img alt=""Success Stories"" src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/successstories1-1762840789.jpg"" /></div>
+
+<div class=""success-stories-card-content"">
+<h3 class=""success-stories-card-title"">Vinay</h3>
+<button class=""btn-watch-now"" data-bs-target=""#success-stories19"" data-bs-toggle=""modal""><img src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/playcircle-1763617487.png"" />Watch my story</button></div>
+</div>
+</div>
+
+<div class=""success-stories-card"">
+<div class=""main-wrap"">
+<div class=""success-stories-card-image""><img alt=""Success Stories"" src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/successstories1-1762840789.jpg"" /></div>
+
+<div class=""success-stories-card-content"">
+<h3 class=""success-stories-card-title"">Neha</h3>
+<button class=""btn-watch-now"" data-bs-target=""#success-stories20"" data-bs-toggle=""modal""><img src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/playcircle-1763617487.png"" />Watch my story</button></div>
+</div>
+</div>
+</div>
+
+<div class=""item"">
+<div class=""success-stories-card"">
+<div class=""main-wrap"">
+<div class=""success-stories-card-image""><img alt=""Success Stories"" src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/successstories1-1762840789.jpg"" /></div>
+
+<div class=""success-stories-card-content"">
+<h3 class=""success-stories-card-title"">Saksham</h3>
+<button class=""btn-watch-now"" data-bs-target=""#success-stories21"" data-bs-toggle=""modal""><img src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/playcircle-1763617487.png"" />Watch my story</button></div>
+</div>
+</div>
+
+<div class=""success-stories-card"">
+<div class=""main-wrap"">
+<div class=""success-stories-card-image""><img alt=""Success Stories"" src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/successstories1-1762840789.jpg"" /></div>
+
+<div class=""success-stories-card-content"">
+<h3 class=""success-stories-card-title"">Aarti</h3>
+<button class=""btn-watch-now"" data-bs-target=""#success-stories22"" data-bs-toggle=""modal""><img src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/playcircle-1763617487.png"" />Watch my story</button></div>
+</div>
+</div>
+</div>
+
+<div class=""item"">
+<div class=""success-stories-card"">
+<div class=""main-wrap"">
+<div class=""success-stories-card-image""><img alt=""Success Stories"" src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/successstories1-1762840789.jpg"" /></div>
+
+<div class=""success-stories-card-content"">
+<h3 class=""success-stories-card-title"">Steve Pereira</h3>
+<button class=""btn-watch-now"" data-bs-target=""#success-stories23"" data-bs-toggle=""modal""><img src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/playcircle-1763617487.png"" />Watch my story</button></div>
+</div>
+</div>
+
+<div class=""success-stories-card"">
+<div class=""main-wrap"">
+<div class=""success-stories-card-image""><img alt=""Success Stories"" src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/successstories1-1762840789.jpg"" /></div>
+
+<div class=""success-stories-card-content"">
+<h3 class=""success-stories-card-title"">Pratibha</h3>
+<button class=""btn-watch-now"" data-bs-target=""#success-stories24"" data-bs-toggle=""modal""><img src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/playcircle-1763617487.png"" />Watch my story</button></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class=""success-btn-wrap""><a class=""hire-from-us-btn"" href=""https://www.youtube.com/@SkillArbitrageSuccess"" target=""_blank"">Watch all the youtube success stories</a></div>
+</div>
+
+<div class=""success-stories-linkedin-section"">
+<div class=""heading"">
+<h2 class=""success-stories-title"">Success Stories on LinkedIn</h2>
+</div>
+
+<div class=""success-stories-carousel"">
+<div class=""success-stories-linkedin-slider owl-carousel owl-theme"">
+<div class=""item"">
+<div class=""success-stories-card"">
+<div class=""success-stories-card-image""><img alt=""Success Stories"" src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/male-1762845627.png"" /></div>
+
+<div class=""success-stories-card-content"">
+<h3 class=""success-stories-card-title"">Namrata Choudhari</h3>
+<button class=""btn-watch-now"">Read more <img src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/arrowright-1763617898.png"" /></button></div>
+</div>
+
+<div class=""success-stories-card"">
+<div class=""success-stories-card-image""><img alt=""Success Stories"" src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/male-1762845627.png"" /></div>
+
+<div class=""success-stories-card-content"">
+<h3 class=""success-stories-card-title"">Ujjaini Halder</h3>
+<button class=""btn-watch-now"">Read more <img src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/arrowright-1763617898.png"" /></button></div>
+</div>
+
+<div class=""success-stories-card"">
+<div class=""success-stories-card-image""><img alt=""Success Stories"" src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/male-1762845627.png"" /></div>
+
+<div class=""success-stories-card-content"">
+<h3 class=""success-stories-card-title"">Dr. Bhavna P. Kerkar</h3>
+<button class=""btn-watch-now"">Read more <img src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/arrowright-1763617898.png"" /></button></div>
+</div>
+</div>
+
+<div class=""item"">
+<div class=""success-stories-card"">
+<div class=""success-stories-card-image""><img alt=""Success Stories"" src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/male-1762845627.png"" /></div>
+
+<div class=""success-stories-card-content"">
+<h3 class=""success-stories-card-title"">Vinita Gupta</h3>
+<button class=""btn-watch-now"">Read more <img src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/arrowright-1763617898.png"" /></button></div>
+</div>
+
+<div class=""success-stories-card"">
+<div class=""success-stories-card-image""><img alt=""Success Stories"" src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/male-1762845627.png"" /></div>
+
+<div class=""success-stories-card-content"">
+<h3 class=""success-stories-card-title"">Santosh Suryakant Dhoke</h3>
+<button class=""btn-watch-now"">Read more <img src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/arrowright-1763617898.png"" /></button></div>
+</div>
+
+<div class=""success-stories-card"">
+<div class=""success-stories-card-image""><img alt=""Success Stories"" src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/male-1762845627.png"" /></div>
+
+<div class=""success-stories-card-content"">
+<h3 class=""success-stories-card-title"">Chamundeswari Arul</h3>
+<button class=""btn-watch-now"">Read more <img src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/arrowright-1763617898.png"" /></button></div>
+</div>
+</div>
+
+<div class=""item"">
+<div class=""success-stories-card"">
+<div class=""success-stories-card-image""><img alt=""Success Stories"" src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/male-1762845627.png"" /></div>
+
+<div class=""success-stories-card-content"">
+<h3 class=""success-stories-card-title"">Durga Devi R</h3>
+<button class=""btn-watch-now"">Read more <img src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/arrowright-1763617898.png"" /></button></div>
+</div>
+
+<div class=""success-stories-card"">
+<div class=""success-stories-card-image""><img alt=""Success Stories"" src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/male-1762845627.png"" /></div>
+
+<div class=""success-stories-card-content"">
+<h3 class=""success-stories-card-title"">Shipra Khaitan</h3>
+<button class=""btn-watch-now"">Read more <img src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/arrowright-1763617898.png"" /></button></div>
+</div>
+
+<div class=""success-stories-card"">
+<div class=""success-stories-card-image""><img alt=""Success Stories"" src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/male-1762845627.png"" /></div>
+
+<div class=""success-stories-card-content"">
+<h3 class=""success-stories-card-title"">Mariyam</h3>
+<button class=""btn-watch-now"">Read more <img src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/arrowright-1763617898.png"" /></button></div>
+</div>
+</div>
+
+<div class=""item"">
+<div class=""success-stories-card"">
+<div class=""success-stories-card-image""><img alt=""Success Stories"" src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/male-1762845627.png"" /></div>
+
+<div class=""success-stories-card-content"">
+<h3 class=""success-stories-card-title"">Vijay Kumar B S</h3>
+<button class=""btn-watch-now"">Read more <img src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/arrowright-1763617898.png"" /></button></div>
+</div>
+
+<div class=""success-stories-card"">
+<div class=""success-stories-card-image""><img alt=""Success Stories"" src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/male-1762845627.png"" /></div>
+
+<div class=""success-stories-card-content"">
+<h3 class=""success-stories-card-title"">Tanuruha Chaudhuri</h3>
+<button class=""btn-watch-now"">Read more <img src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/arrowright-1763617898.png"" /></button></div>
+</div>
+
+<div class=""success-stories-card"">
+<div class=""success-stories-card-image""><img alt=""Success Stories"" src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/male-1762845627.png"" /></div>
+
+<div class=""success-stories-card-content"">
+<h3 class=""success-stories-card-title"">Neelofar Afroj</h3>
+<button class=""btn-watch-now"">Read more <img src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/arrowright-1763617898.png"" /></button></div>
+</div>
+</div>
+
+<div class=""item"">
+<div class=""success-stories-card"">
+<div class=""success-stories-card-image""><img alt=""Success Stories"" src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/male-1762845627.png"" /></div>
+
+<div class=""success-stories-card-content"">
+<h3 class=""success-stories-card-title"">Rishi Biswas</h3>
+<button class=""btn-watch-now"">Read more <img src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/arrowright-1763617898.png"" /></button></div>
+</div>
+
+<div class=""success-stories-card"">
+<div class=""success-stories-card-image""><img alt=""Success Stories"" src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/male-1762845627.png"" /></div>
+
+<div class=""success-stories-card-content"">
+<h3 class=""success-stories-card-title"">Mahjabeen Khatoon</h3>
+<button class=""btn-watch-now"">Read more <img src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/arrowright-1763617898.png"" /></button></div>
+</div>
+
+<div class=""success-stories-card"">
+<div class=""success-stories-card-image""><img alt=""Success Stories"" src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/male-1762845627.png"" /></div>
+
+<div class=""success-stories-card-content"">
+<h3 class=""success-stories-card-title"">Saba Khan</h3>
+<button class=""btn-watch-now"">Read more <img src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/arrowright-1763617898.png"" /></button></div>
+</div>
+</div>
+
+<div class=""item"">
+<div class=""success-stories-card"">
+<div class=""success-stories-card-image""><img alt=""Success Stories"" src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/male-1762845627.png"" /></div>
+
+<div class=""success-stories-card-content"">
+<h3 class=""success-stories-card-title"">Lalitha Petharaj</h3>
+<button class=""btn-watch-now"">Read more <img src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/arrowright-1763617898.png"" /></button></div>
+</div>
+
+<div class=""success-stories-card"">
+<div class=""success-stories-card-image""><img alt=""Success Stories"" src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/male-1762845627.png"" /></div>
+
+<div class=""success-stories-card-content"">
+<h3 class=""success-stories-card-title"">Sampuran Chakraborty</h3>
+<button class=""btn-watch-now"">Read more <img src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/arrowright-1763617898.png"" /></button></div>
+</div>
+
+<div class=""success-stories-card"">
+<div class=""success-stories-card-image""><img alt=""Success Stories"" src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/male-1762845627.png"" /></div>
+
+<div class=""success-stories-card-content"">
+<h3 class=""success-stories-card-title"">Deepali Salunkhe</h3>
+<button class=""btn-watch-now"">Read more <img src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/arrowright-1763617898.png"" /></button></div>
+</div>
+</div>
+
+<div class=""item"">
+<div class=""success-stories-card"">
+<div class=""success-stories-card-image""><img alt=""Success Stories"" src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/male-1762845627.png"" /></div>
+
+<div class=""success-stories-card-content"">
+<h3 class=""success-stories-card-title"">Durga Devi R</h3>
+<button class=""btn-watch-now"">Read more <img src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/arrowright-1763617898.png"" /></button></div>
+</div>
+
+<div class=""success-stories-card"">
+<div class=""success-stories-card-image""><img alt=""Success Stories"" src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/male-1762845627.png"" /></div>
+
+<div class=""success-stories-card-content"">
+<h3 class=""success-stories-card-title"">Yakta Raza Khan</h3>
+<button class=""btn-watch-now"">Read more <img src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/arrowright-1763617898.png"" /></button></div>
+</div>
+
+<div class=""success-stories-card"">
+<div class=""success-stories-card-image""><img alt=""Success Stories"" src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/male-1762845627.png"" /></div>
+
+<div class=""success-stories-card-content"">
+<h3 class=""success-stories-card-title"">Sanyogita Maansingh Jadhav</h3>
+<button class=""btn-watch-now"">Read more <img src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/arrowright-1763617898.png"" /></button></div>
+</div>
+</div>
+
+<div class=""item"">
+<div class=""success-stories-card"">
+<div class=""success-stories-card-image""><img alt=""Success Stories"" src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/male-1762845627.png"" /></div>
+
+<div class=""success-stories-card-content"">
+<h3 class=""success-stories-card-title"">Roli Kulshreshtha</h3>
+<button class=""btn-watch-now"">Read more <img src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/arrowright-1763617898.png"" /></button></div>
+</div>
+
+<div class=""success-stories-card"">
+<div class=""success-stories-card-image""><img alt=""Success Stories"" src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/male-1762845627.png"" /></div>
+
+<div class=""success-stories-card-content"">
+<h3 class=""success-stories-card-title"">Arina Zaidi</h3>
+<button class=""btn-watch-now"">Read more <img src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/arrowright-1763617898.png"" /></button></div>
+</div>
+
+<div class=""success-stories-card"">
+<div class=""success-stories-card-image""><img alt=""Success Stories"" src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/male-1762845627.png"" /></div>
+
+<div class=""success-stories-card-content"">
+<h3 class=""success-stories-card-title"">Sneha Tanna</h3>
+<button class=""btn-watch-now"">Read more <img src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/arrowright-1763617898.png"" /></button></div>
+</div>
+</div>
+
+<div class=""item"">
+<div class=""success-stories-card"">
+<div class=""success-stories-card-image""><img alt=""Success Stories"" src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/male-1762845627.png"" /></div>
+
+<div class=""success-stories-card-content"">
+<h3 class=""success-stories-card-title"">Angshuman Pal</h3>
+<button class=""btn-watch-now"">Read more <img src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/arrowright-1763617898.png"" /></button></div>
+</div>
+
+<div class=""success-stories-card"">
+<div class=""success-stories-card-image""><img alt=""Success Stories"" src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/male-1762845627.png"" /></div>
+
+<div class=""success-stories-card-content"">
+<h3 class=""success-stories-card-title"">Prabir kumar Panda</h3>
+<button class=""btn-watch-now"">Read more <img src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/arrowright-1763617898.png"" /></button></div>
+</div>
+
+<div class=""success-stories-card"">
+<div class=""success-stories-card-image""><img alt=""Success Stories"" src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/male-1762845627.png"" /></div>
+
+<div class=""success-stories-card-content"">
+<h3 class=""success-stories-card-title"">Yolanda Silveira</h3>
+<button class=""btn-watch-now"">Read more <img src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/arrowright-1763617898.png"" /></button></div>
+</div>
+</div>
+
+<div class=""item"">
+<div class=""success-stories-card"">
+<div class=""success-stories-card-image""><img alt=""Success Stories"" src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/male-1762845627.png"" /></div>
+
+<div class=""success-stories-card-content"">
+<h3 class=""success-stories-card-title"">Ujjaine Halder</h3>
+<button class=""btn-watch-now"">Read more <img src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/arrowright-1763617898.png"" /></button></div>
+</div>
+
+<div class=""success-stories-card"">
+<div class=""success-stories-card-image""><img alt=""Success Stories"" src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/male-1762845627.png"" /></div>
+
+<div class=""success-stories-card-content"">
+<h3 class=""success-stories-card-title"">Lakshmi Bala V</h3>
+<button class=""btn-watch-now"">Read more <img src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/arrowright-1763617898.png"" /></button></div>
+</div>
+
+<div class=""success-stories-card"">
+<div class=""success-stories-card-image""><img alt=""Success Stories"" src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/male-1762845627.png"" /></div>
+
+<div class=""success-stories-card-content"">
+<h3 class=""success-stories-card-title"">Soumya sen</h3>
+<button class=""btn-watch-now"">Read more <img src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/arrowright-1763617898.png"" /></button></div>
+</div>
+</div>
+
+<div class=""item"">
+<div class=""success-stories-card"">
+<div class=""success-stories-card-image""><img alt=""Success Stories"" src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/male-1762845627.png"" /></div>
+
+<div class=""success-stories-card-content"">
+<h3 class=""success-stories-card-title"">Piu Halder</h3>
+<button class=""btn-watch-now"">Read more <img src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/arrowright-1763617898.png"" /></button></div>
+</div>
+
+<div class=""success-stories-card"">
+<div class=""success-stories-card-image""><img alt=""Success Stories"" src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/male-1762845627.png"" /></div>
+
+<div class=""success-stories-card-content"">
+<h3 class=""success-stories-card-title"">Tasneem Sunelwala</h3>
+<button class=""btn-watch-now"">Read more <img src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/arrowright-1763617898.png"" /></button></div>
+</div>
+
+<div class=""success-stories-card"">
+<div class=""success-stories-card-image""><img alt=""Success Stories"" src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/male-1762845627.png"" /></div>
+
+<div class=""success-stories-card-content"">
+<h3 class=""success-stories-card-title"">Rajeev Kumar</h3>
+<button class=""btn-watch-now"">Read more <img src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/arrowright-1763617898.png"" /></button></div>
+</div>
+</div>
+
+<div class=""item"">
+<div class=""success-stories-card"">
+<div class=""success-stories-card-image""><img alt=""Success Stories"" src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/male-1762845627.png"" /></div>
+
+<div class=""success-stories-card-content"">
+<h3 class=""success-stories-card-title"">Siva Kumari G</h3>
+<button class=""btn-watch-now"">Read more <img src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/arrowright-1763617898.png"" /></button></div>
+</div>
+
+<div class=""success-stories-card"">
+<div class=""success-stories-card-image""><img alt=""Success Stories"" src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/male-1762845627.png"" /></div>
+
+<div class=""success-stories-card-content"">
+<h3 class=""success-stories-card-title"">Meenal Sirsikar</h3>
+<button class=""btn-watch-now"">Read more <img src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/arrowright-1763617898.png"" /></button></div>
+</div>
+
+<div class=""success-stories-card"">
+<div class=""success-stories-card-image""><img alt=""Success Stories"" src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/male-1762845627.png"" /></div>
+
+<div class=""success-stories-card-content"">
+<h3 class=""success-stories-card-title"">Joythi Dhananjay</h3>
+<button class=""btn-watch-now"">Read more <img src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/arrowright-1763617898.png"" /></button></div>
+</div>
+</div>
+
+<div class=""item"">
+<div class=""success-stories-card"">
+<div class=""success-stories-card-image""><img alt=""Success Stories"" src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/male-1762845627.png"" /></div>
+
+<div class=""success-stories-card-content"">
+<h3 class=""success-stories-card-title"">Irfan Farooq Guhnoo</h3>
+<button class=""btn-watch-now"">Read more <img src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/arrowright-1763617898.png"" /></button></div>
+</div>
+
+<div class=""success-stories-card"">
+<div class=""success-stories-card-image""><img alt=""Success Stories"" src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/male-1762845627.png"" /></div>
+
+<div class=""success-stories-card-content"">
+<h3 class=""success-stories-card-title"">Julee Sinha</h3>
+<button class=""btn-watch-now"">Read more <img src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/arrowright-1763617898.png"" /></button></div>
+</div>
+
+<div class=""success-stories-card"">
+<div class=""success-stories-card-image""><img alt=""Success Stories"" src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/male-1762845627.png"" /></div>
+
+<div class=""success-stories-card-content"">
+<h3 class=""success-stories-card-title"">Chaitanya Lakshmi</h3>
+<button class=""btn-watch-now"">Read more <img src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/arrowright-1763617898.png"" /></button></div>
+</div>
+</div>
+
+<div class=""item"">
+<div class=""success-stories-card"">
+<div class=""success-stories-card-image""><img alt=""Success Stories"" src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/male-1762845627.png"" /></div>
+
+<div class=""success-stories-card-content"">
+<h3 class=""success-stories-card-title"">Mukkanti Swapna reddy</h3>
+<button class=""btn-watch-now"">Read more <img src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/arrowright-1763617898.png"" /></button></div>
+</div>
+
+<div class=""success-stories-card"">
+<div class=""success-stories-card-image""><img alt=""Success Stories"" src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/male-1762845627.png"" /></div>
+
+<div class=""success-stories-card-content"">
+<h3 class=""success-stories-card-title"">Bikkavilli Divya</h3>
+<button class=""btn-watch-now"">Read more <img src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/arrowright-1763617898.png"" /></button></div>
+</div>
+
+<div class=""success-stories-card"">
+<div class=""success-stories-card-image""><img alt=""Success Stories"" src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/male-1762845627.png"" /></div>
+
+<div class=""success-stories-card-content"">
+<h3 class=""success-stories-card-title"">Nageshwar K C</h3>
+<button class=""btn-watch-now"">Read more <img src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/arrowright-1763617898.png"" /></button></div>
+</div>
+</div>
+
+<div class=""item"">
+<div class=""success-stories-card"">
+<div class=""success-stories-card-image""><img alt=""Success Stories"" src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/male-1762845627.png"" /></div>
+
+<div class=""success-stories-card-content"">
+<h3 class=""success-stories-card-title"">Swapna</h3>
+<button class=""btn-watch-now"">Read more <img src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/arrowright-1763617898.png"" /></button></div>
+</div>
+
+<div class=""success-stories-card"">
+<div class=""success-stories-card-image""><img alt=""Success Stories"" src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/male-1762845627.png"" /></div>
+
+<div class=""success-stories-card-content"">
+<h3 class=""success-stories-card-title"">Sonal Undale</h3>
+<button class=""btn-watch-now"">Read more <img src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/arrowright-1763617898.png"" /></button></div>
+</div>
+
+<div class=""success-stories-card"">
+<div class=""success-stories-card-image""><img alt=""Success Stories"" src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/male-1762845627.png"" /></div>
+
+<div class=""success-stories-card-content"">
+<h3 class=""success-stories-card-title"">Jyothi S</h3>
+<button class=""btn-watch-now"">Read more <img src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/arrowright-1763617898.png"" /></button></div>
+</div>
+</div>
+
+<div class=""item"">
+<div class=""success-stories-card"">
+<div class=""success-stories-card-image""><img alt=""Success Stories"" src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/male-1762845627.png"" /></div>
+
+<div class=""success-stories-card-content"">
+<h3 class=""success-stories-card-title"">Sarita Sah</h3>
+<button class=""btn-watch-now"">Read more <img src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/arrowright-1763617898.png"" /></button></div>
+</div>
+
+<div class=""success-stories-card"">
+<div class=""success-stories-card-image""><img alt=""Success Stories"" src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/male-1762845627.png"" /></div>
+
+<div class=""success-stories-card-content"">
+<h3 class=""success-stories-card-title"">Yolanda Silveira</h3>
+<button class=""btn-watch-now"">Read more <img src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/arrowright-1763617898.png"" /></button></div>
+</div>
+
+<div class=""success-stories-card"">
+<div class=""success-stories-card-image""><img alt=""Success Stories"" src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/male-1762845627.png"" /></div>
+
+<div class=""success-stories-card-content"">
+<h3 class=""success-stories-card-title"">Premalatha Reddy</h3>
+<button class=""btn-watch-now"">Read more <img src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/arrowright-1763617898.png"" /></button></div>
+</div>
+</div>
+
+<div class=""item"">
+<div class=""success-stories-card"">
+<div class=""success-stories-card-image""><img alt=""Success Stories"" src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/male-1762845627.png"" /></div>
+
+<div class=""success-stories-card-content"">
+<h3 class=""success-stories-card-title"">Lakshmi Bala V</h3>
+<button class=""btn-watch-now"">Read more <img src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/arrowright-1763617898.png"" /></button></div>
+</div>
+
+<div class=""success-stories-card"">
+<div class=""success-stories-card-image""><img alt=""Success Stories"" src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/male-1762845627.png"" /></div>
+
+<div class=""success-stories-card-content"">
+<h3 class=""success-stories-card-title"">Saurabh Kumar Singh</h3>
+<button class=""btn-watch-now"">Read more <img src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/arrowright-1763617898.png"" /></button></div>
+</div>
+
+<div class=""success-stories-card"">
+<div class=""success-stories-card-image""><img alt=""Success Stories"" src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/male-1762845627.png"" /></div>
+
+<div class=""success-stories-card-content"">
+<h3 class=""success-stories-card-title"">Puneet Aidasani</h3>
+<button class=""btn-watch-now"">Read more <img src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/arrowright-1763617898.png"" /></button></div>
+</div>
+</div>
+
+<div class=""item"">
+<div class=""success-stories-card"">
+<div class=""success-stories-card-image""><img alt=""Success Stories"" src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/male-1762845627.png"" /></div>
+
+<div class=""success-stories-card-content"">
+<h3 class=""success-stories-card-title"">Saba Naqishbandi</h3>
+<button class=""btn-watch-now"">Read more <img src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/arrowright-1763617898.png"" /></button></div>
+</div>
+
+<div class=""success-stories-card"">
+<div class=""success-stories-card-image""><img alt=""Success Stories"" src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/male-1762845627.png"" /></div>
+
+<div class=""success-stories-card-content"">
+<h3 class=""success-stories-card-title"">Garima Jain</h3>
+<button class=""btn-watch-now"">Read more <img src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/arrowright-1763617898.png"" /></button></div>
+</div>
+
+<div class=""success-stories-card"">
+<div class=""success-stories-card-image""><img alt=""Success Stories"" src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/male-1762845627.png"" /></div>
+
+<div class=""success-stories-card-content"">
+<h3 class=""success-stories-card-title"">Simmy Singh</h3>
+<button class=""btn-watch-now"">Read more <img src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/arrowright-1763617898.png"" /></button></div>
+</div>
+</div>
+
+<div class=""item"">
+<div class=""success-stories-card"">
+<div class=""success-stories-card-image""><img alt=""Success Stories"" src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/male-1762845627.png"" /></div>
+
+<div class=""success-stories-card-content"">
+<h3 class=""success-stories-card-title"">Meghana Sarang</h3>
+<button class=""btn-watch-now"">Read more <img src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/arrowright-1763617898.png"" /></button></div>
+</div>
+
+<div class=""success-stories-card"">
+<div class=""success-stories-card-image""><img alt=""Success Stories"" src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/male-1762845627.png"" /></div>
+
+<div class=""success-stories-card-content"">
+<h3 class=""success-stories-card-title"">Priyanka Deora</h3>
+<button class=""btn-watch-now"">Read more <img src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/arrowright-1763617898.png"" /></button></div>
+</div>
+
+<div class=""success-stories-card"">
+<div class=""success-stories-card-image""><img alt=""Success Stories"" src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/male-1762845627.png"" /></div>
+
+<div class=""success-stories-card-content"">
+<h3 class=""success-stories-card-title"">Sanjana Chakraborty</h3>
+<button class=""btn-watch-now"">Read more <img src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/arrowright-1763617898.png"" /></button></div>
+</div>
+</div>
+
+<div class=""item"">
+<div class=""success-stories-card"">
+<div class=""success-stories-card-image""><img alt=""Success Stories"" src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/male-1762845627.png"" /></div>
+
+<div class=""success-stories-card-content"">
+<h3 class=""success-stories-card-title"">Pooja Shinde</h3>
+<button class=""btn-watch-now"">Read more <img src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/arrowright-1763617898.png"" /></button></div>
+</div>
+
+<div class=""success-stories-card"">
+<div class=""success-stories-card-image""><img alt=""Success Stories"" src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/male-1762845627.png"" /></div>
+
+<div class=""success-stories-card-content"">
+<h3 class=""success-stories-card-title"">Nazia Kauser S</h3>
+<button class=""btn-watch-now"">Read more <img src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/arrowright-1763617898.png"" /></button></div>
+</div>
+
+<div class=""success-stories-card"">
+<div class=""success-stories-card-image""><img alt=""Success Stories"" src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/male-1762845627.png"" /></div>
+
+<div class=""success-stories-card-content"">
+<h3 class=""success-stories-card-title"">Simmy Singh</h3>
+<button class=""btn-watch-now"">Read more <img src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/arrowright-1763617898.png"" /></button></div>
+</div>
+</div>
+
+<div class=""item"">
+<div class=""success-stories-card"">
+<div class=""success-stories-card-image""><img alt=""Success Stories"" src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/male-1762845627.png"" /></div>
+
+<div class=""success-stories-card-content"">
+<h3 class=""success-stories-card-title"">Jyotsna Chakraborty</h3>
+<button class=""btn-watch-now"">Read more <img src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/arrowright-1763617898.png"" /></button></div>
+</div>
+
+<div class=""success-stories-card"">
+<div class=""success-stories-card-image""><img alt=""Success Stories"" src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/male-1762845627.png"" /></div>
+
+<div class=""success-stories-card-content"">
+<h3 class=""success-stories-card-title"">Shyma R</h3>
+<button class=""btn-watch-now"">Read more <img src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/arrowright-1763617898.png"" /></button></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class=""success-stories-linkedin-section p-0"">
+<div class=""heading"">
+<h2 class=""success-stories-title"">Reviews on Quora</h2>
+</div>
+
+<div class=""success-stories-carousel"">
+<div class=""success-stories-quora-slider owl-carousel owl-theme"">
+<div class=""item"">
+<div class=""success-stories-card"">
+<div class=""success-stories-card-image""><img alt=""Success Stories"" src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/male-1762845627.png"" /></div>
+
+<div class=""success-stories-card-content"">
+<h3 class=""success-stories-card-title"">Namrata Choudhari</h3>
+<button class=""btn-watch-now"">Read more <img src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/arrowright-1763617898.png"" /></button></div>
+</div>
+
+<div class=""success-stories-card"">
+<div class=""success-stories-card-image""><img alt=""Success Stories"" src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/male-1762845627.png"" /></div>
+
+<div class=""success-stories-card-content"">
+<h3 class=""success-stories-card-title"">Ujjaini Halder</h3>
+<button class=""btn-watch-now"">Read more <img src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/arrowright-1763617898.png"" /></button></div>
+</div>
+
+<div class=""success-stories-card"">
+<div class=""success-stories-card-image""><img alt=""Success Stories"" src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/male-1762845627.png"" /></div>
+
+<div class=""success-stories-card-content"">
+<h3 class=""success-stories-card-title"">Dr. Bhavna P. Kerkar</h3>
+<button class=""btn-watch-now"">Read more <img src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/arrowright-1763617898.png"" /></button></div>
+</div>
+</div>
+
+<div class=""item"">
+<div class=""success-stories-card"">
+<div class=""success-stories-card-image""><img alt=""Success Stories"" src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/male-1762845627.png"" /></div>
+
+<div class=""success-stories-card-content"">
+<h3 class=""success-stories-card-title"">Vinita Gupta</h3>
+<button class=""btn-watch-now"">Read more <img src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/arrowright-1763617898.png"" /></button></div>
+</div>
+
+<div class=""success-stories-card"">
+<div class=""success-stories-card-image""><img alt=""Success Stories"" src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/male-1762845627.png"" /></div>
+
+<div class=""success-stories-card-content"">
+<h3 class=""success-stories-card-title"">Santosh Suryakant Dhoke</h3>
+<button class=""btn-watch-now"">Read more <img src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/arrowright-1763617898.png"" /></button></div>
+</div>
+
+<div class=""success-stories-card"">
+<div class=""success-stories-card-image""><img alt=""Success Stories"" src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/male-1762845627.png"" /></div>
+
+<div class=""success-stories-card-content"">
+<h3 class=""success-stories-card-title"">Chamundeswari Arul</h3>
+<button class=""btn-watch-now"">Read more <img src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/arrowright-1763617898.png"" /></button></div>
+</div>
+</div>
+
+<div class=""item"">
+<div class=""success-stories-card"">
+<div class=""success-stories-card-image""><img alt=""Success Stories"" src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/male-1762845627.png"" /></div>
+
+<div class=""success-stories-card-content"">
+<h3 class=""success-stories-card-title"">Durga Devi R</h3>
+<button class=""btn-watch-now"">Read more <img src=""https://skillarbitra-backend-dev.s3.amazonaws.com/assets/uploads/media-library/arrowright-1763617898.png"" /></button></div>
+</div>
+</div>
+</div>
+</div","A","2025-03-22 06:31:21","2026-03-20 12:03:10"

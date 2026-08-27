@@ -1,0 +1,128 @@
+{
+    "old_course_id": "id", // tbl_course.id
+
+    "title": "course_name", // tbl_course.course_name
+
+    "slug": "url_mask", // tbl_course.url_mask
+
+    "course_content": "content_title+content_details", 
+
+    "course_category": "type_of_course", //tbl_course.type_of_course
+
+    "duration_minutes": "course_duration",   // my new db captures this in minutes but old db have a month (tbl_course.course_duration)
+
+    "class_routine": "class_routine", // tbl_course.class_routine
+
+    "is_published": "hide_from_list", // tbl_course.hide_from_list: Y=hide from list → is_published false; N=show in list → is_published true
+
+    "hide_from_list": "hide_from_list", // preserve tbl_course.hide_from_list as target Y/N
+
+    "location_short_name": "location_short_name", // tbl_course.location_short_name; defaults to IN when empty
+
+    "status": "status",  // tbl_course.status
+
+    "enrollment_last_date": "enrollment_close_date", // tbl_course.enrollment_close_date
+
+    "payment_enabled": "true",  // default to true
+
+    "currency": "currency",  // tbl_course.currency
+
+    "amount": "course_fee", // tbl_course.course_fee
+
+    "additional_price": "course_plan_additional_price", // first active tbl_course_plan_type_mapping.additional_price by course_plan_position, then id
+
+    "third_party_lead_enabled": "true",  // default to true
+
+    "course_tags": "course_type_name", // tbl_course.type_of_course → tbl_course_type.id → course_type_name
+
+    "share_enabled": "show_banner_share", // tbl_course_banner.show_banner_share Y=true, N=false
+
+    "is_new": "is_new", // tbl_course.is_new Y=true, N=false
+
+    "is_featured": "is_featured", // tbl_course.is_featured Y=true, N=false
+
+    "short_description": "banner_sub_desc",  // tbl_course_banner.banner_sub_desc
+
+    "ap_portal_course_id": "ap_id", // tbl_course.ap_id
+
+    "ap_portal_course_catagory_id": "ap_course_cat_id", // tbl_course.ap_course_cat_id
+
+    "get_study_material_enabled": "show_free_download",  //tbl_course_banner.show_free_download Y=true, N=false
+
+    "study_material_email_template": "freedownload_msg", // tbl_course.freedownload_msg
+
+    "counselling_call_enabled": "show_counselling_call",  // tbl_course.banner.show_counselling_call Y=true, N=false
+
+    "join_waitlist_enabled": "true",   // default to true, do not read from CSV
+
+    "join_waitlist_email_template": "join_the_waitlist_msg", // tbl_course.join_the_waitlist_msg
+
+    "use_custom_study_material_template": "false",  // default to false
+
+    "study_material_mapping_ids": [],  // filled at migrate time after study-material upload; default empty
+
+    "use_custom_join_waitlist_email_template": "false",  // default to false
+
+    "banner_phone": "banner_phone", // tbl_course_banner.banner_phone
+
+    "show_banner_phone": "show_banner_phone", // tbl_course_banner.show_banner_phone Y=true, N=false
+
+    "show_banner_tagline": "show_banner_tagline", // tbl_course_banner.show_banner_tagline Y=true, N=false
+
+    "banner_tag_line": "banner_tagline", // tbl_course_banner.banner_tagline
+
+    "show_learn_from": "show_learn_from",  // tbl_course.show_learn_from Y=true, N=false
+
+    "learn_from": "learn_from", // tbl_course.learn_from
+
+    "show_get_course_syllabus": "show_syllabus",    // tbl_course_banner.show_syllabus Y=true, N=false
+
+    "get_course_syllabus_link": "get_course_syllebus_link",  // tbl_course.get_course_syllebus_link
+
+    "refund_policy": "show_new_refund_policy", // tbl_course.show_new_refund_policy Y=true, N=false
+
+    "logo_type": "show_govt_medhavi_logo", // tbl_course.show_govt_medhavi_logo 0,1,2,3
+
+    "send_to_timepay": "false",  // default to false
+
+    "send_to_leadsquared": "true",  // default to true
+
+    "send_to_wati": "true",  // default to true
+
+    "send_to_email": "true",  // default to true
+
+    "banner_url": "image_name", // COURSE_BANNER_IMG_S3_BASE_URL + tbl_course_banner.image_name
+
+    "banner_image_data": "",
+
+    "timepay_campaign_id": "",
+
+    "timepay_bootcamp_name": "",
+
+    "timepay_agent_id": "",
+
+    "timepay_disposition_id": "",
+
+    "timepay_organization_id": "",
+
+    "initiate_call": "",
+
+    "seo_title": "",
+
+    "seo_description": "",
+
+    "seo_keywords": "",
+
+    "google_json": "",
+
+    "og_title": "",
+
+    "og_type": "",
+
+    "og_url": "",
+
+    "og_image": "",
+
+    "og_description": ""
+
+}
