@@ -130,7 +130,9 @@ async function buildMigratedCourses(options = {}) {
             // plan_original_price → tbl_course_plan_type_mapping.orginal_price
             // stored under a unique key so buildPayload can override payload.amount
             // without being shadowed by tbl_course.course_fee
-            plan_original_price: bestPlanRow ? cleanText(bestPlanRow.orginal_price) : '',
+            plan_original_price: bestPlanRow ? cleanText(bestPlanRow.orginal_price)      : '',
+            // edmingle_course_id → tbl_course_plan_type_mapping.edmingle_course_id
+            edmingle_course_id:  bestPlanRow ? cleanText(bestPlanRow.edmingle_course_id) : '',
         };
 
         const payload = buildPayload({
@@ -478,7 +480,7 @@ function compareNumber(left, right) {
 function selectBestPlanRow(coursePlanRows) {
     return (
         [...coursePlanRows]
-            .filter((row) => cleanText(row.status).toUpperCase() === 'A')
+            // .filter((row) => cleanText(row.status).toUpperCase() === 'A')
             .sort(
                 (a, b) =>
                     compareNumber(a.course_plan_position, b.course_plan_position) ||

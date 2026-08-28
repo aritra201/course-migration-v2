@@ -47,6 +47,8 @@
 
     "ap_portal_course_id": "ap_id", // tbl_course.ap_id
 
+    "edmingle_course_id": "edmingle_course_id", // tbl_course_plan_type_mapping.edmingle_course_id
+
     "ap_portal_course_catagory_id": "ap_course_cat_id", // tbl_course.ap_course_cat_id
 
     "get_study_material_enabled": "show_free_download",  //tbl_course_banner.show_free_download Y=true, N=false

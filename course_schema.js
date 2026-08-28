@@ -246,9 +246,13 @@ export default function (sequelize, DataTypes) {
                 allowNull: false,
                 defaultValue: "N"
             },
-
             payment_gateway: {
                 type: DataTypes.STRING(50),
+                allowNull: true,
+                defaultValue: null
+            },
+            edmingle_course_id: {
+                type: DataTypes.INTEGER,
                 allowNull: true,
                 defaultValue: null
             },
