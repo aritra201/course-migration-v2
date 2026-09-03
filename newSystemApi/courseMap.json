@@ -35,7 +35,7 @@
 
     "third_party_lead_enabled": "true",  // default to true
 
-    "course_tags": "course_type_name", // tbl_course.type_of_course → tbl_course_type.id → course_type_name
+    "course_tags": "tags", // tbl_course.tags
 
     "share_enabled": "show_banner_share", // tbl_course_banner.show_banner_share Y=true, N=false
 
