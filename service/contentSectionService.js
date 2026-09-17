@@ -857,6 +857,26 @@ function renderSyllabus(sectionTypeId, courseId, ds) {
 }
 
 /**
+ * Price label for course plan HTML from tbl_course_plan_type_mapping.curr_name.
+ * Production: USD → "$ 765"; INR / empty → "RS. 66000".
+ */
+function formatPlanPriceForDisplay(price, currName) {
+    const amount = escapeHtml(cleanText(price) || '0');
+    const code = cleanText(currName).toUpperCase();
+
+    if (code === 'USD') {
+        return `$ ${amount}`;
+    }
+
+    if (code === 'GBP') {
+        return `£ ${amount}`;
+    }
+
+    // INR, RS, or missing → legacy RS. prefix
+    return `RS. ${amount}`;
+}
+
+/**
  * course_plan → tbl_course_courseplan (section header)
  *             + tbl_course_plan_type_mapping INNER JOIN tbl_course_plan_type_master
  * PHP: getCoursePlans — validates section by sectionTypeId + courseId, then joins
@@ -894,9 +914,10 @@ function renderCoursePlan(sectionTypeId, courseId, ds) {
         // description is raw HTML from the CSV — use it directly
         const descRows = desc.trim();
 
+        const currName = plan.curr_name;
         const priceDisplay = showPromo
-            ? `<span>RS. ${escapeHtml(promoPrice)}</span> <del>RS. ${escapeHtml(price)}</del>`
-            : `<span>RS. ${escapeHtml(price)}</span>`;
+            ? `<span>${formatPlanPriceForDisplay(promoPrice, currName)}</span> <del>${formatPlanPriceForDisplay(price, currName)}</del>`
+            : `<span>${formatPlanPriceForDisplay(price, currName)}</span>`;
 
         const isStandard = cssClass === 'standard';
 
